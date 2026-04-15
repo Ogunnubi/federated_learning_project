@@ -1,0 +1,20 @@
+# Ignore virtual environments
+venv/
+env/
+ENV/
+
+# Ignore datasets
+federated_hospitals/
+central_dataset/
+
+# Ignore model files
+*.h5
+*.keras
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
