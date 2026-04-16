@@ -42,7 +42,7 @@ Results visualizations included
 
 ## 📂 Project Structure  
 
-Code
+```text
 federated_learning_project/
 │
 ├── src/
@@ -65,6 +65,7 @@ federated_learning_project/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+
 🏥 Federated Learning Workflow
 Each hospital trains a local CNN model on its own X‑ray dataset.
 
