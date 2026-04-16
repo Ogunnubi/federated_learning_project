@@ -90,29 +90,37 @@ Compliance with privacy regulations
 Code
 git clone https://github.com/Ogunnubi/federated_learning_project.git
 cd federated_learning_project
+
+
 2. Install dependencies
 Code
 pip install -r requirements.txt
+
+
 ▶️ How to Run the Project
 1. Prepare the dataset
 Split the dataset into hospital partitions:
-
 Code
 python src/split_dataset.py
+
 2. Train hospital models
 Code
 python src/train_hospital_model.py
+
 3. Train the central model (baseline)
 Code
 python src/train_central_model.py
+
 4. Perform Federated Averaging
 Code
 python src/federated_averaging.py
+
 5. Evaluate models
 Code
 python src/evaluate_central_model.py
 python src/evaluate_hospital_model.py
 python src/evaluate_federated_model.py
+
 📊 Results
 The results/ folder contains:
 
