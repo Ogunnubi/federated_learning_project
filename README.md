@@ -40,7 +40,8 @@ Clean modular code structure
 
 Results visualizations included
 
-📂 Project Structure
+## 📂 Project Structure  
+
 Code
 federated_learning_project/
 │
